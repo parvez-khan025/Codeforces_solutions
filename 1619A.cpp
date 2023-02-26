@@ -11,7 +11,7 @@ int main()
 
         int len=s.size();
         if(len%2!=0)
-            cout<<"NO\n";
+            cout<<"NO"<<endl;
         else{
             int i=0;
             int j=s.size()/2;
@@ -25,8 +25,8 @@ int main()
                 }
                 i++; j++;
             }
-            if(flag==true) cout<<"YES\n";
-            else cout<<"NO\n";
+            if(flag==true) cout<<"YES"<<endl;
+            else cout<<"NO"<<endl;
         }
     }
     return 0;
